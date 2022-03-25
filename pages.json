@@ -1,0 +1,313 @@
+{
+	"easycom": {
+		// npm安装的方式不需要前面的"@/"，下载安装的方式需要"@/"
+		// npm安装方式
+		// "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		// 下载安装方式
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	    {
+	        "path" : "pages/index/index",
+	        "style" :                                                                                    
+	        {
+	            "navigationBarTitleText": "首页",
+	            "enablePullDownRefresh": false
+	        }
+	        
+	    },
+		{
+            "path" : "pages/user/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+		    "path" : "pages/user/address/list/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "地址管理",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/user/address/form/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "添加地址",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/reserve/detail/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "立即预约",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/order/reserve/list/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mall/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/piggyback/list/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "捎带记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/piggyback/detail/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/message/list/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/protocol/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户协议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/reserve/list/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约项目",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/patient/list/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "就诊人列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/patient/form/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "就诊人",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/reserve/select/date/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选择时间",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/reserve/select/medicalCare/list/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选择医护",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/reserve/select/medicalCare/detail/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选择医护",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/reserve/order/form/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "确认预约订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/order/reserve/detail/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/reserve/order/result/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单完成",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/medical-records/list/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "诊疗记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/medical-records/detail/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "诊疗记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mall/detail/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mall/order/form/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "确认订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/order/mall/list/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/order/reserve/evaluate/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评价详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/order/mall/detail/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/order/reserve/refund/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "申请退款",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/order/mall/refund/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "申请退款",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/order/mall/evaluate/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发表评论",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/site/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/site/phoneForm/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加新号码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "医院",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"list":[
+			{
+				"pagePath": "pages/mall/index/index"
+			},{
+				"pagePath": "pages/index/index"
+			},{
+				"pagePath": "pages/user/index/index"
+			}
+		]
+	}
+}
